@@ -30,7 +30,8 @@ import anuong.cantho.backend.service.quanan.DanhMucService;
 
 @RestController 
 @RequestMapping ("/api/danh-muc")
-@CrossOrigin (origins = "http://localhost:5173")
+// @CrossOrigin (origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://didaucantho.netlify.app")
 public class DanhMucController {
 
   private final DanhMucService danhMucService;

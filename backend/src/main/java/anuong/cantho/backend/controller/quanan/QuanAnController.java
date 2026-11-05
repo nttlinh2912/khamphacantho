@@ -30,7 +30,8 @@ import jakarta.validation.Valid;
 @RestController
 @RequestMapping("/api/quan-an")
 @Validated
-@CrossOrigin(origins = "http://localhost:5173")
+// @CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://didaucantho.netlify.app")
 public class QuanAnController {
 
   private final QuanAnService quanAnService;

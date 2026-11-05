@@ -19,7 +19,8 @@ import lombok.RequiredArgsConstructor;
 @RestController
 @RequestMapping("/api/bai-viet/{baiVietId}/hinh-anh")
 @RequiredArgsConstructor
-@CrossOrigin(origins = "http://localhost:5173")
+// @CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://didaucantho.netlify.app")
 public class HinhAnhBaiVietController {
 
   private final HinhAnhBaiVietService hinhAnhService;

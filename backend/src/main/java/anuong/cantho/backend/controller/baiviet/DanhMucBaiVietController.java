@@ -29,7 +29,8 @@ import lombok.RequiredArgsConstructor;
 @RestController
 @RequestMapping("/api/danh-muc-bai-viet")
 @RequiredArgsConstructor
-@CrossOrigin("http://localhost:5173")
+// @CrossOrigin("http://localhost:5173")
+@CrossOrigin(origins = "https://didaucantho.netlify.app")
 @Validated
 public class DanhMucBaiVietController {
 

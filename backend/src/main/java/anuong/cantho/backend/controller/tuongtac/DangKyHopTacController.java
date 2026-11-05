@@ -27,7 +27,8 @@ import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 
 @RestController 
-@CrossOrigin (origins = "http://localhost:5173")
+// @CrossOrigin (origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://didaucantho.netlify.app")
 @RequiredArgsConstructor 
 public class DangKyHopTacController {
 

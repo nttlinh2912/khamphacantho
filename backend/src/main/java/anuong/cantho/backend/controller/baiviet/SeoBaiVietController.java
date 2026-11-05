@@ -16,7 +16,8 @@ import lombok.RequiredArgsConstructor;
 @RestController 
 @RequestMapping ("/api/bai-viet/seo")
 @RequiredArgsConstructor 
-@CrossOrigin (origins = "http://localhost:5173")
+// @CrossOrigin (origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://didaucantho.netlify.app")
 public class SeoBaiVietController {
 
   private final SeoBaiVietService seoBaiVietService;

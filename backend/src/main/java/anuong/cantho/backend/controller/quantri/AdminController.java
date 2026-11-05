@@ -19,7 +19,8 @@ import anuong.cantho.backend.service.quantri.AdminService;
 
 @RestController 
 @RequestMapping ("/api/admin") 
-@CrossOrigin (origins = "http://localhost:5173")
+// @CrossOrigin (origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://didaucantho.netlify.app")
 public class AdminController {
 
   private final AdminService adminService;

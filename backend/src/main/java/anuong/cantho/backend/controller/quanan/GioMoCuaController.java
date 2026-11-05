@@ -25,7 +25,8 @@ import lombok.RequiredArgsConstructor;
 @RequestMapping("/api/gio-mo-cua")
 @RequiredArgsConstructor
 @Validated
-@CrossOrigin(origins = "http://localhost:5173")
+// @CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://didaucantho.netlify.app")
 public class GioMoCuaController {
 
   private final GioMoCuaService gioMoCuaService;

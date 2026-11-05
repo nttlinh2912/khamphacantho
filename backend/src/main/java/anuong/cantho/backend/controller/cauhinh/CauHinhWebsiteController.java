@@ -22,7 +22,8 @@ import lombok.RequiredArgsConstructor;
 @RestController
 @RequestMapping("/api/cau-hinh-website")
 @RequiredArgsConstructor
-@CrossOrigin(origins = "http://localhost:5173")
+// @CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://didaucantho.netlify.app")
 @Validated
 public class CauHinhWebsiteController {
 

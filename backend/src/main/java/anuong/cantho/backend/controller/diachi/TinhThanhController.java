@@ -19,7 +19,8 @@ import jakarta.validation.Valid;
 
 @RestController
 @RequestMapping("/api/tinh-thanh")
-@CrossOrigin(origins = "http://localhost:5173")
+// @CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://didaucantho.netlify.app")
 public class TinhThanhController {
 
   private final TinhThanhService tinhThanhService;

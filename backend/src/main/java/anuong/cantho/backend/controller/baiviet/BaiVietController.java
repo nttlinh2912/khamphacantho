@@ -28,7 +28,8 @@ import lombok.RequiredArgsConstructor;
 
 @RestController
 @RequestMapping("/api/bai-viet")
-@CrossOrigin(origins = "http://localhost:5173")
+// @CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://didaucantho.netlify.app")
 @RequiredArgsConstructor
 public class BaiVietController {
 
